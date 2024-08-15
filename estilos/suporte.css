@@ -1,0 +1,96 @@
+html,
+body {
+  background-color: #0c1014;
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.topo {
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .topo-logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+  }
+  
+  .topo-caixas a:hover {
+    text-decoration: underline;
+  }
+  
+  .lista-caixa {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 20px;
+  }
+  
+  .lista-caixa a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+  }
+  
+  a.lista-caixa--active {
+    /* Sem a tag a antes da classe */
+    background-color: #cbe300;
+    color: #0c1014;
+    pointer-events: none;
+  }
+
+  .main-title {
+    color: white;
+    text-align: center;
+  }
+
+  main{
+    width: 90%;
+    margin: auto;
+    max-width: 800px;
+}
+
+section{
+    padding-top: 32px;
+    /* Usando o padding no section tera o mesmo resultado se utilizasse, margin top no article */
+}
+
+article{
+    background-color: rgb(0, 0, 0);
+    padding: 16px;
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+
+article h2{
+    border-bottom:2px solid #ccc;
+    background-color: #3b3b3b;
+    padding: 12px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: #cbe300;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-left: auto; /*não funciona com display:inline-block */
+    width: fit-content;  
+    text-decoration: none;
+}
+
+.paragrafo-suporte{
+        font-size: 18px;
+        text-align: left;
+        padding-left: 12px;
+}
