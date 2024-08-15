@@ -1,5 +1,5 @@
 body{
-    background-color: #0c1014;
+    background-color: #9ccdff;
     color: white;
     width: 90%;
     max-width: 960px;
@@ -9,7 +9,7 @@ body{
 
 .topo {
     display: flex;
-    background-color: #05080a;
+    background-color: #0577c4;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ a.lista-caixa--active {  /* Sem a tag a antes da classe */
 
 .titulo-sistema {
     text-transform: uppercase;
-    border-bottom: 2px solid #cbe300;
+    border-bottom: 2px solid #ffffff;
     margin-top: 0;
     padding-bottom: 10px;
     letter-spacing: 2px;
@@ -93,11 +93,11 @@ a.lista-caixa--active {  /* Sem a tag a antes da classe */
 }
 
 .caracteristicas-sistema li::marker {
-    color: #cbe300;
+    color: #ffffff;
 }
 
 .btn-cta {
-    background-color: #cbe300;
+    background-color: #ffffff;
     border-radius: 6px;
     text-decoration: none;
     color: #0c1014;
