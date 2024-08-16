@@ -1,0 +1,69 @@
+body {
+    background-color: #9ccdff;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.list-group {
+    margin-top: 10px;
+}
+
+.list-group-item {
+    font-size: 1.2em;
+}
+
+.embed-responsive {
+    margin-bottom: 1em;
+}
+
+.topo {
+    display: flex;
+    background-color: #0577c4;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.topo-caixas a:hover {
+    text-decoration: underline;
+} 
+
+.lista-caixa {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.lista-caixa a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+a.lista-caixa--active {  /* Sem a tag a antes da classe */
+    background-color: #ffffff;
+    color: #0c1014;
+    pointer-events: none;
+}

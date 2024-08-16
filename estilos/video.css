@@ -41,7 +41,7 @@ body{
 }
 
 a.lista-caixa--active {  /* Sem a tag a antes da classe */
-    background-color: #cbe300;
+    background-color: #ffffff;
     color: #0c1014;
     pointer-events: none;
 }
@@ -109,7 +109,7 @@ a.lista-caixa--active {  /* Sem a tag a antes da classe */
 }
 
 .btn-cta:hover {
-    outline: 2px solid #cbe300;
+    outline: 2px solid #e7e7e5;
     background-color: transparent;
     color: white;
 }
