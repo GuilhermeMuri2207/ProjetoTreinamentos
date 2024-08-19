@@ -1,0 +1,158 @@
+html,
+body {
+  background-color: #9ccdff;
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.topo {
+  display: flex;
+  background-color: #0577c4;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topo-logo {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  letter-spacing: 2px;
+}
+
+.topo-caixas a:hover {
+  text-decoration: underline;
+}
+
+.lista-caixa {
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+  gap: 20px;
+}
+
+.lista-caixa a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+a.lista-caixa--active {
+  /* Sem a tag a antes da classe */
+  background-color: #ffffff;
+  color: #4d657e;
+  pointer-events: none;
+}
+
+.main-title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+}
+
+.list-wrapper {
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  width: 90%;
+  max-width: 500px;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Horiontal, Vertical, Esfumaçamento, Cor de Transparencia */
+}
+
+.lista {
+  list-style-type: none; /*Retirando os efeitos visuais da lista ( * ) */
+  padding: 0; /* Zerar os valores do padding que por padrão nao vem zerados */
+  margin: 0;
+}
+
+.item-lista {
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  padding: 16px;
+}
+
+.item-lista-imagem img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.item-lista-content {
+  padding: 0 20px;
+  flex-grow: 1; /* Aumentar a box do conteúdo */
+}
+
+.item-lista-nome {
+  font-size: 24px;
+  color: #adadad;
+  margin: 0;
+}
+
+.item-lista-email {
+  margin: 5px 0 0;
+  color: #aaa;
+}
+
+.item-lista:hover {
+  background-color: #e8e8e8;
+}
+
+.item-lista-acoes {
+  /* Botoes de Delete e Edit */
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  opacity: 0; /* 0= Totalmente transparente e 1 = totalmente opaco */
+}
+
+.item-lista:hover .item-lista-acoes {
+  display: flex;
+  opacity: 0.4;
+}
+
+.button-container {
+  margin: 20px 0; /* Distância do conteúdo acima */
+  text-align: center; /* Alinha os botões ao centro */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 26px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 10px; /* Espaço entre os botões */
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #0577c4;
+}
+
+.btn-primary:hover {
+  background-color: #0577c4;
+}
+
+.home-button {
+  background-color: #0577c4;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  background-color: #ffffff;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+}

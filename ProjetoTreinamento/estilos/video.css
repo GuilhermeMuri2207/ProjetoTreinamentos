@@ -1,0 +1,115 @@
+body{
+    background-color: #9ccdff;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topo {
+    display: flex;
+    background-color: #0577c4;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.topo-caixas a:hover {
+    text-decoration: underline;
+} 
+
+.lista-caixa {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.lista-caixa a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+a.lista-caixa--active {  /* Sem a tag a antes da classe */
+    background-color: #ffffff;
+    color: #0c1014;
+    pointer-events: none;
+}
+
+.main-title {
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.sistema {
+    display: flex;
+    gap: 16px;
+}
+
+.descricao-sistema {
+    flex: 1; /* Representa o mesmo de "flex-grow:1" */
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 16px -6px black; /* Numero antes da cor representa a expansao ou diminuiçao da sombra */
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-sistema {
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.descricao-sistema p {
+    margin-top: 0;
+}
+
+.subtitle-sistema { 
+    font-size: 20px;
+}
+
+.caracteristicas-sistema{
+    margin: 0 0 36px 0;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.caracteristicas-sistema li::marker {
+    color: #ffffff;
+}
+
+.btn-cta {
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #0c1014;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.btn-cta:hover {
+    outline: 2px solid #e7e7e5;
+    background-color: transparent;
+    color: white;
+}
