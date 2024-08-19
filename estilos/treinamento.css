@@ -63,3 +63,7 @@ a.lista-caixa--active {  /* Sem a tag a antes da classe */
 .mb-3 {
     margin-top: 20px;
 }
+
+.btn {
+    margin-top: 10px;
+}
