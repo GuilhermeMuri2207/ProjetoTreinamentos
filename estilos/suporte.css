@@ -71,15 +71,6 @@ article{
     border-radius: 10px;
 }
 
-article h2{
-    border-bottom:4px solid #ffffff;
-    background-color: #0577c4;
-    color: black;
-    padding: 12px;
-    margin-top: 0;
-    border-radius: 10px;
-}
-
 .btn{
     background-color: #ffffff;
     display: block;
@@ -98,4 +89,8 @@ article h2{
 
 .suporte-caixa {
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+  background-color: white;
 }
