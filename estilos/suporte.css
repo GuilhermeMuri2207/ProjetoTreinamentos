@@ -91,6 +91,19 @@ article{
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.logo {
+/*seção em bootstrap pedro*/
+
+.col-12 {
   background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+a.btn {
+  background-color: lightslategray;
+  margin-top: 20px;
+}
+
+a.btn:hover {
+  background-color: lightskyblue;
 }
