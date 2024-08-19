@@ -59,3 +59,7 @@ a.lista-caixa--active {  /* Sem a tag a antes da classe */
     color: #0c1014;
     pointer-events: none;
 }
+
+.mb-3 {
+    margin-top: 20px;
+}
