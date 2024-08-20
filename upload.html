@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilos/home.css">
+    <link rel="stylesheet" href="estilos/upload.css">
     <title>Barra de Navegação Lateral</title>
 </head>
 <body>
@@ -11,16 +11,16 @@
         <div class="sidebar-content">
             <h2>Menu</h2>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="homeadm.html">Home</a></li>
                 <li>
                     <a href="#" onclick="toggleCourses(event)">Cursos <span class="arrow">  ▼</span></a>
                     <ul class="courses-list">
-                        <li><a href="#curso1">Curso SIGFIS</a></li>
-                        <li><a href="#curso2">Curso KLINIKOS</a></li>
-                        <li><a href="#curso3">Curso STOK</a></li>
+                        <li><a href="aula1.html">Curso SIGFIS</a></li>
+                        <li><a href="aula1.html">Curso KLINIKOS</a></li>
+                        <li><a href="aula1.html">Curso STOK</a></li>
                     </ul>
                 </li>
-                <li class="admin-only"><a href="#upload">Upload</a></li>
+                <li class="admin-only-menu">Upload</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
                 <li><a href="suporte.html">Suporte</a></li>
             </ul>
@@ -28,8 +28,15 @@
     </div>
 
     <div class="main-content" id="main-content">
+        <img src="imagens/logo.png" class="logo" alt="logo fundação">
+        <br><br>
         <h1>Pagina de Administrador dos Treinamentos</h1>
         <p>Nessa pagina voce podera fazer upload de videos para a plataforma</p>
+        <ul>
+            <li class="admin-only"><a href="#upload">Faça aqui o Upload do video do treinamento para o SIGFIS</a></li>
+            <li class="admin-only"><a href="#upload">Faça aqui o Upload do video do treinamento para o KLINIKOS</a></li>
+            <li class="admin-only"><a href="#upload">Faça aqui o Upload do video do treinamento para o STOK</a></li>
+        </ul>
     </div>
 
     <script src="scripts/home.js"></script>

@@ -78,8 +78,9 @@ a.lista-caixa--active {
 }
 
 .item-lista-imagem img {
+  padding: 10px;
   width: 80px;
-  border-radius: 50%;
+  border-radius: 70px;
 }
 
 .item-lista-content {

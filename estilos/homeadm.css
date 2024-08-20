@@ -1,0 +1,9 @@
+body {
+    background-color: #9ccdff;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 6px;
+    width: 55%;
+}
